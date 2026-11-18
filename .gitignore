@@ -1,0 +1,46 @@
+# Local credentials and private notes
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.ssh/
+private/
+local/
+
+# Vendor downloads, archives, system and virtual-machine images
+*.downloading
+*.baiduyun*
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.iso
+*.img
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
+*.qcow2
+*.pdf
+*.mp4
+*.mkv
+
+# Generated files
+__pycache__/
+*.pyc
+*.o
+*.out
+build/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
