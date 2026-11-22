@@ -1,0 +1,42 @@
+{
+  "matched_heartbeats": 59,
+  "windows_packet_capture_available": false,
+  "board_capture_interval_ms": {
+    "count": 58,
+    "min": 999.022,
+    "max": 1000.943,
+    "mean": 1000.004,
+    "p95": 1000.791
+  },
+  "windows_receive_measurement": "application Receive return",
+  "windows_receive_interval_ms": {
+    "count": 58,
+    "min": 812.191,
+    "max": 1199.357,
+    "mean": 1000.127,
+    "p95": 1068.229
+  },
+  "windows_receive_intervals_outside_900_1100": 4,
+  "windows_nic_to_application_ms": {
+    "count": 0
+  },
+  "relative_path_delay_variation_ms": {
+    "count": 59,
+    "min": 0.0,
+    "max": 207.605,
+    "mean": 24.581,
+    "p95": 76.979
+  },
+  "data_to_ack_rtt_ms_including_delayed_ack": {
+    "count": 59,
+    "min": 46.873,
+    "max": 286.028,
+    "mean": 93.25,
+    "p95": 189.2
+  },
+  "duplicate_board_data_packets": 0,
+  "timing_log": [
+    "Timing max_poll_ms=21.495 max_receive_ms=0.056 max_parse_ms=1.916 max_log_ms=179.367"
+  ],
+  "limits": "If no Windows packet events, receive times are application observations. Clocks not synchronized; no absolute one-way latency claim. Relative variation includes unobserved driver/kernel/application waits."
+}

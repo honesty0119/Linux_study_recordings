@@ -1,0 +1,11 @@
+{
+  "presses": 0,
+  "releases": 0,
+  "enqueued": 0,
+  "socket_sent": 0,
+  "windows_keys": 0,
+  "edges": [],
+  "log_summary": "accepted=63 written=63 frame_logs=60 over_50ms=0 max_receive_to_log_ms=1.676 max_queue_wait_ms=0.065 max_write_ms=0.833 queue_peak=1",
+  "physical_to_queue_latency": "NOT MEASURED; software observations are not physical contact times",
+  "four_key_chain_pass": false
+}

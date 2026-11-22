@@ -1,0 +1,23 @@
+[
+  {
+    "phase": "single-heartbeat",
+    "receiver_exit": 0,
+    "board_exit": 0,
+    "heartbeats": 30,
+    "keys": 0,
+    "intervals": 29,
+    "gap_min_ms": 906.296,
+    "gap_max_ms": 1085.335,
+    "gaps_outside_100ms": 0,
+    "log": {
+      "accepted": "36",
+      "written": "36",
+      "frame_logs": "30",
+      "over_50ms": "0",
+      "max_receive_to_log_ms": "2.637",
+      "max_queue_wait_ms": "0.105",
+      "max_write_ms": "0.868",
+      "queue_peak": "1"
+    }
+  }
+]

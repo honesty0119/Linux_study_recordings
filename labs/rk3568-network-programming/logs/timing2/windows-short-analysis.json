@@ -1,0 +1,13 @@
+{
+  "capture_component": "Windows WFP 802.3 (after native Wi-Fi conversion)",
+  "matched": 0,
+  "windows_capture_to_receive_ms": {
+    "count": 0
+  },
+  "windows_capture_interval_ms": {
+    "count": 0
+  },
+  "application_interval_ms": {
+    "count": 0
+  }
+}

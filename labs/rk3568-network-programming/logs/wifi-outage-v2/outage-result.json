@@ -1,0 +1,13 @@
+{
+  "real_wifi_disconnect_confirmed": true,
+  "disable_request_to_detection_ms": 101,
+  "disable_command_return_to_detection_ms": 13,
+  "wifi_enable_return_to_tcp_connected_ms": 2072,
+  "windows_heartbeat_timeout_ms": [
+    2017.454,
+    2003.485
+  ],
+  "auto_reconnect": "PASS",
+  "link_ready_to_tcp_connected_ms": "NOT PRECISELY MEASURED: ready polling is 2s",
+  "notes": "Wi-Fi enable return is not the actual association/IP ready time. Do not claim the original 1s recovery target from this measurement alone."
+}

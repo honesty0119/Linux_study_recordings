@@ -1,0 +1,47 @@
+{
+  "functional_result": "PASS",
+  "real_board_wifi_disconnect": true,
+  "original_network_restored": true,
+  "offline_observation_to_restore_request_ms": 8008,
+  "wifi_enable_return_to_first_ready_observation_ms": 717,
+  "first_ready_observation_to_next_successful_send_ms": 102,
+  "board": {
+    "enqueued": 273,
+    "socket_sent_keys": 229,
+    "locally_failed_keys": 44,
+    "socket_sent_heartbeats": 47,
+    "send_failures": 53,
+    "pending": 0,
+    "exit": 1,
+    "status": "INCOMPLETE"
+  },
+  "host": {
+    "heartbeats": 47,
+    "keys": 229,
+    "timeout_ms": [
+      2001.129,
+      2013.128
+    ],
+    "keys_after_heartbeat_recovery": 174
+  },
+  "log": {
+    "accepted": "280",
+    "written": "280",
+    "frame_logs": "276",
+    "over_50ms": "0",
+    "max_receive_to_log_ms": "1.907",
+    "max_queue_wait_ms": "7.533",
+    "max_write_ms": "0.960",
+    "queue_peak": "4"
+  },
+  "performance": {
+    "timeout_within_2100ms": true,
+    "log_within_50ms": true
+  },
+  "limits": [
+    "Board ready is sampled, not exact hardware restoration time",
+    "Successful sendto is not delivery confirmation; no cross-host one-way latency inferred",
+    "Local offline send failures and INCOMPLETE exit are retained, not hidden",
+    "Synthetic key events validate queue/network recovery, not physical input latency"
+  ]
+}

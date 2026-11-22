@@ -1,0 +1,14 @@
+{
+  "real_wifi_disconnect_confirmed": true,
+  "disable_request_to_detection_ms": 96,
+  "disable_command_return_to_detection_ms": 3,
+  "wifi_enable_return_to_tcp_connected_ms": 1059,
+  "windows_heartbeat_timeout_ms": [
+    2019.97,
+    2016.514
+  ],
+  "auto_reconnect": "PASS",
+  "link_ready_to_tcp_connected_ms": "Approximate: first-ready observation every ~100ms plus query time; see first_observed_ready_to_tcp_connected_ms",
+  "notes": "Wi-Fi enable return is not the actual association/IP ready time. Do not claim the original 1s recovery target from this measurement alone.",
+  "first_observed_ready_to_tcp_connected_ms": 449
+}

@@ -1,0 +1,46 @@
+{
+  "matched_heartbeats": 22,
+  "windows_packet_capture_available": true,
+  "board_capture_interval_ms": {
+    "count": 21,
+    "min": 999.184,
+    "max": 1000.836,
+    "mean": 999.982,
+    "p95": 1000.656
+  },
+  "windows_receive_measurement": "Windows WFP 802.3 capture (selected component 36)",
+  "windows_receive_interval_ms": {
+    "count": 21,
+    "min": 890.562,
+    "max": 1075.583,
+    "mean": 999.84,
+    "p95": 1045.291
+  },
+  "windows_receive_intervals_outside_900_1100": 1,
+  "windows_capture_to_application_timestamp_difference_ms": {
+    "count": 22,
+    "min": -0.89,
+    "max": 0.114,
+    "mean": -0.473,
+    "p95": 0.091
+  },
+  "relative_path_delay_variation_ms": {
+    "count": 22,
+    "min": 0.0,
+    "max": 111.273,
+    "mean": 22.307,
+    "p95": 61.661
+  },
+  "data_to_ack_rtt_ms_including_delayed_ack": {
+    "count": 22,
+    "min": 46.874,
+    "max": 165.761,
+    "mean": 104.393,
+    "p95": 164.188
+  },
+  "duplicate_board_data_packets": 0,
+  "timing_log": [
+    "Timing max_poll_ms=21.533 max_receive_ms=0.036 max_parse_ms=2.173 max_log_ms=35.406 max_receive_to_log_ms=32.618"
+  ],
+  "limits": "Windows capture is WFP/driver observation, not RF arrival. ETW converted time vs DateTime.UtcNow can differ by about 1ms: small negative differences are timestamp uncertainty, not negative latency. If no packet events, use application observations. Board/Windows clocks not synchronized; no absolute one-way latency claim. Relative variation includes unobserved driver/kernel/application waits."
+}

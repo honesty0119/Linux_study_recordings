@@ -1,0 +1,19 @@
+{
+  "synthetic_keys": 43,
+  "heartbeat_intervals_ms": [
+    992.17,
+    1008.188,
+    979.32,
+    1029.645,
+    965.45,
+    1027.581,
+    970.038,
+    1021.543
+  ],
+  "heartbeat_timeout_ms": [
+    2002.465
+  ],
+  "reconnect_on_server_restart": "PASS",
+  "physical_key_test": "PENDING",
+  "one_hour_stability": "PENDING"
+}

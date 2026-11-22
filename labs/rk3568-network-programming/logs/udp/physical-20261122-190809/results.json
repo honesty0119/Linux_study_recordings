@@ -1,0 +1,76 @@
+{
+  "presses": 4,
+  "releases": 4,
+  "enqueued": 4,
+  "socket_sent": 4,
+  "windows_keys": 4,
+  "edges": [
+    [
+      "11500452",
+      "1795345843.127744",
+      "1"
+    ],
+    [
+      "11500659",
+      "1795345843.334303",
+      "0"
+    ],
+    [
+      "11502012",
+      "1795345844.687749",
+      "1"
+    ],
+    [
+      "11502219",
+      "1795345844.894337",
+      "0"
+    ],
+    [
+      "11504392",
+      "1795345847.067849",
+      "1"
+    ],
+    [
+      "11504495",
+      "1795345847.170986",
+      "0"
+    ],
+    [
+      "11506152",
+      "1795345848.827764",
+      "1"
+    ],
+    [
+      "11508129",
+      "1795345850.804392",
+      "0"
+    ]
+  ],
+  "log_summary": "accepted=187 written=187 frame_logs=184 over_50ms=0 max_receive_to_log_ms=33.182 max_queue_wait_ms=0.464 max_write_ms=33.114 queue_peak=1",
+  "physical_to_queue_latency": "NOT MEASURED; software observations are not physical contact times",
+  "four_key_chain_pass": true,
+  "held_ms": [
+    206.559,
+    206.588,
+    103.137,
+    1976.628
+  ],
+  "observed_to_queue_ms": [
+    11,
+    12,
+    12,
+    11
+  ],
+  "heartbeat_sent": 180,
+  "heartbeat_received": 180,
+  "send_gaps_ms": {
+    "min": 999,
+    "max": 1001
+  },
+  "receive_gaps_ms": {
+    "min": 212.297,
+    "max": 1646.604,
+    "outside_100ms": 25,
+    "intervals": 179
+  }
+}

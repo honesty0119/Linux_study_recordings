@@ -4,6 +4,21 @@
 
 ## 当前进展
 
+- [网络编程完整总结](labs/rk3568-network-programming/docs/task-summary.md)
+- [实现源码与复现入口](labs/rk3568-network-programming/README.md)
+- [过程、结果与排错索引](notes/rk3568-network-programming.md)
+
+
+**最新（2026-11-22）：RK3568 TCP/UDP 核心功能与真实 Wi-Fi 断网恢复已验证，源码、过程和阶段总结已归档；性能仍有保留项，一小时稳定性按用户要求暂缓。** [本轮记录](journal/2026-11-22-network-tcp.md)。以下保留阶段历史。
+
+2026-11-22，串口出现仅回显、shell 不执行命令的故障；用户授权复位后，助手已验证恢复交互。旧 /tmp 程序已清空，Ubuntu 源码和产物仍在；此前按键队列测试通过记录保留。用户截图确认网络查询正常返回；用户最新明确要让 RK3568 接入 Windows 当前同一 Wi-Fi，无线工具检查已确认 connmanctl、wpa_supplicant、wpa_cli、udhcpc 可用；用户已在板端屏幕连接同一 Wi-Fi，截图显示 wlan0 链路就绪；板端地址和路由已确认，Windows ping 板端 3/3 成功且 SSH 端口可达；板端 ping Windows 无回应，SSH 主机指纹已核验，按用户授权添加项目公钥后免输密码登录成功；Wi-Fi scp 传输、程序校验及重新部署后的板端自测均通过，下一步实现 TCP 与心跳。
+
+2026-11-22，用户确认网络编程方案中的 Zynq7020 统一按 RK3568 适配。继续 task2_network_programming；截图确认 adc-keys/event7 的 KEY_VOLUMEUP（115）三次短按及一次约 2.18 秒长按均有完整按下与释放，按键基础读取验证通过；已确认 System V 消息队列接口存在、当前列表为空、单条消息上限 8192 字节、队列默认容量 16384 字节。共享访问已恢复，按键与队列最小 C 程序已写入 task2；Ubuntu --self-test 已通过（sent=4 received=4 PASS），已验证本机队列收发与合成事件过滤；ARM64 交叉编译和产物检查已通过，串口包已准备；手动传输失败后，用户授权助手接管串口；现已完成传输和双重 SHA-256 校验，RK3568 自测 sent=4 received=4 PASS，队列已释放。真实按键与自编程序集成测试也已通过（sent=4 received=4 PASS）。网络方案以用户最新的同一 Wi-Fi 要求为准，准备无线连接后再进行 TCP；板端无线地址及连接状态待确认。
+
+2026-11-21，已建立共享任务目录 RK3568_CODE/task2_network_programming 及 readme.md，说明按键、消息队列与 TCP/UDP 心跳实验；下一步核实 RK3568 按键和网络环境，实验待执行。
+
+2026-11-21，已完成网络编程试验方案内容分析。下一步确认使用 Zynq7020 还是现有 RK3568，并核实按键接口与网络条件；TCP/UDP 实验均待执行。
+
 2026-11-21，Linux 静态库与动态库实操已完成并收口：Ubuntu 与 RK3568 上的静态版、动态版均通过 17/17 项检查，完成依赖与体积比较、缺库与恢复测试及产物清理。源码和交叉工具链保留，基础路线 L00 尚未单独验收。
 
 - [本次完整实操文档](notes/static-dynamic-libraries-rk3568.md)：实现流程、验证结果、问题与解释。

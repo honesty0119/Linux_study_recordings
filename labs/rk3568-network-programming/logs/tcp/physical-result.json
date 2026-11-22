@@ -1,0 +1,46 @@
+{
+  "physical_events": 4,
+  "queue_events": 4,
+  "windows_events": 4,
+  "held_ms": [
+    309.824,
+    206.4,
+    206.571,
+    936.452
+  ],
+  "raw_observed_to_queue_ms": [
+    12,
+    11,
+    11,
+    11
+  ],
+  "board_heartbeat_count": 110,
+  "board_heartbeat_gap_ms": {
+    "min": 999,
+    "max": 1001
+  },
+  "windows_heartbeat_gap_ms": {
+    "min": 801.289,
+    "max": 1266.579,
+    "outside_900_1100": [
+      1214.524,
+      801.289,
+      1266.579,
+      867.855,
+      828.214,
+      1129.92,
+      897.177,
+      1109.595,
+      1141.639,
+      1119.58
+    ]
+  },
+  "timeout_ms": [
+    2014.037
+  ],
+  "functional_key_chain": "PASS for these four events",
+  "receive_interval_target": "NOT ALL PASSED",
+  "physical_to_queue_latency": "NOT MEASURED",
+  "cross_machine_latency": "NOT MEASURED",
+  "one_hour_stability": "NOT RUN"
+}

@@ -1,0 +1,37 @@
+{
+  "sender_pause_resume": {
+    "rx": {
+      "heartbeats": 8,
+      "keys": 0,
+      "invalid": 0,
+      "ignored": 0,
+      "gaps_ms": [
+        990.36,
+        1054.141,
+        995.844,
+        3665.177,
+        969.461,
+        1129.199,
+        921.83
+      ],
+      "gaps_outside_100ms": 2,
+      "log": {
+        "accepted": "12",
+        "written": "12",
+        "frame_logs": "8",
+        "over_50ms": "0",
+        "max_receive_to_log_ms": "1.596",
+        "max_queue_wait_ms": "0.064",
+        "max_write_ms": "0.900",
+        "queue_peak": "1"
+      },
+      "timeout_ms": [
+        2018.517,
+        2019.149
+      ],
+      "recovered": true
+    },
+    "functional_pass": true,
+    "note": "Application stop/restart; not physical Wi-Fi outage"
+  }
+}

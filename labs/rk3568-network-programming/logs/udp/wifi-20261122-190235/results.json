@@ -1,0 +1,137 @@
+{
+  "normal": {
+    "tx": {
+      "keys": 48,
+      "heartbeats": 11,
+      "send_gaps_ms": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1001,
+        1000,
+        999,
+        1001,
+        999
+      ]
+    },
+    "rx": {
+      "heartbeats": 11,
+      "keys": 48,
+      "invalid": 0,
+      "ignored": 0,
+      "gaps_ms": [
+        996.644,
+        1041.295,
+        1024.392,
+        1148.323,
+        864.974,
+        918.414,
+        1013.615,
+        1026.56,
+        1036.429,
+        969.551
+      ],
+      "gaps_outside_100ms": 2,
+      "log": {
+        "accepted": "62",
+        "written": "62",
+        "frame_logs": "59",
+        "over_50ms": "0",
+        "max_receive_to_log_ms": "1.675",
+        "max_queue_wait_ms": "0.417",
+        "max_write_ms": "0.869",
+        "queue_peak": "2"
+      },
+      "timeout_ms": [
+        2015.271
+      ],
+      "recovered": false
+    },
+    "functional_pass": true
+  },
+  "listener_restart": {
+    "tx": {
+      "keys": 88,
+      "heartbeats": 18,
+      "send_gaps_ms": [
+        1000,
+        1001,
+        999,
+        1001,
+        999,
+        1000,
+        1001,
+        999,
+        1000,
+        1001,
+        1000,
+        1000,
+        999,
+        1001,
+        999,
+        1001,
+        1000
+      ]
+    },
+    "before": {
+      "heartbeats": 5,
+      "keys": 22,
+      "invalid": 0,
+      "ignored": 0,
+      "gaps_ms": [
+        970.935,
+        1022.269,
+        972.083,
+        1035.668
+      ],
+      "gaps_outside_100ms": 0,
+      "log": {
+        "accepted": "29",
+        "written": "29",
+        "frame_logs": "27",
+        "over_50ms": "0",
+        "max_receive_to_log_ms": "2.075",
+        "max_queue_wait_ms": "0.103",
+        "max_write_ms": "0.845",
+        "queue_peak": "1"
+      },
+      "timeout_ms": [],
+      "recovered": false
+    },
+    "after": {
+      "heartbeats": 10,
+      "keys": 50,
+      "invalid": 0,
+      "ignored": 0,
+      "gaps_ms": [
+        1048.152,
+        934.466,
+        989.991,
+        1004.586,
+        1026.835,
+        973.298,
+        1021.201,
+        974.076,
+        1040.35
+      ],
+      "gaps_outside_100ms": 0,
+      "log": {
+        "accepted": "63",
+        "written": "63",
+        "frame_logs": "60",
+        "over_50ms": "0",
+        "max_receive_to_log_ms": "1.932",
+        "max_queue_wait_ms": "0.124",
+        "max_write_ms": "0.531",
+        "queue_peak": "2"
+      },
+      "timeout_ms": [
+        2000.938
+      ],
+      "recovered": false
+    },
+    "functional_pass": true
+  }
+}

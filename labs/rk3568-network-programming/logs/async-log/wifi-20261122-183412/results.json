@@ -1,0 +1,86 @@
+[
+  {
+    "phase": "baseline-a",
+    "receiver_exit": 0,
+    "board_exit": 0,
+    "heartbeats": 30,
+    "keys": 0,
+    "intervals": 29,
+    "gap_min_ms": 628.284,
+    "gap_max_ms": 1357.617,
+    "gaps_outside_100ms": 5,
+    "log": {
+      "accepted": "36",
+      "written": "36",
+      "frame_logs": "30",
+      "over_50ms": "0",
+      "max_receive_to_log_ms": "2.398",
+      "max_queue_wait_ms": "0.070",
+      "max_write_ms": "0.930",
+      "queue_peak": "1"
+    }
+  },
+  {
+    "phase": "ssh-activity",
+    "receiver_exit": 0,
+    "board_exit": 0,
+    "heartbeats": 30,
+    "keys": 0,
+    "intervals": 29,
+    "gap_min_ms": 877.151,
+    "gap_max_ms": 1081.365,
+    "gaps_outside_100ms": 1,
+    "log": {
+      "accepted": "36",
+      "written": "36",
+      "frame_logs": "30",
+      "over_50ms": "0",
+      "max_receive_to_log_ms": "2.076",
+      "max_queue_wait_ms": "0.128",
+      "max_write_ms": "0.989",
+      "queue_peak": "1"
+    }
+  },
+  {
+    "phase": "baseline-b",
+    "receiver_exit": 0,
+    "board_exit": 0,
+    "heartbeats": 30,
+    "keys": 0,
+    "intervals": 29,
+    "gap_min_ms": 812.363,
+    "gap_max_ms": 1190.887,
+    "gaps_outside_100ms": 2,
+    "log": {
+      "accepted": "36",
+      "written": "36",
+      "frame_logs": "30",
+      "over_50ms": "0",
+      "max_receive_to_log_ms": "2.605",
+      "max_queue_wait_ms": "0.089",
+      "max_write_ms": "0.893",
+      "queue_peak": "1"
+    }
+  },
+  {
+    "phase": "synthetic",
+    "receiver_exit": 0,
+    "board_exit": 0,
+    "heartbeats": 15,
+    "keys": 73,
+    "intervals": 14,
+    "gap_min_ms": 938.064,
+    "gap_max_ms": 1059.69,
+    "gaps_outside_100ms": 0,
+    "log": {
+      "accepted": "94",
+      "written": "94",
+      "frame_logs": "88",
+      "over_50ms": "0",
+      "max_receive_to_log_ms": "3.035",
+      "max_queue_wait_ms": "0.745",
+      "max_write_ms": "0.554",
+      "queue_peak": "2"
+    }
+  }
+]

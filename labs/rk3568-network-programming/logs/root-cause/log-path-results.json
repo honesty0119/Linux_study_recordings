@@ -1,0 +1,66 @@
+{
+  "null": {
+    "samples": 1000,
+    "all_format_max_ms": 6.9422,
+    "all_write_max_ms": 0.0106,
+    "warm_write_max_ms": 0.0106,
+    "warm_write_median_ms": 0.0012,
+    "warm_write_p99_ms": 0.0041,
+    "over_50ms": 0,
+    "slowest": {
+      "index": "632",
+      "format_ms": "0.021500",
+      "write_ms": "0.010600",
+      "format_cycles": "67391",
+      "write_cycles": "4665"
+    }
+  },
+  "file": {
+    "samples": 1000,
+    "all_format_max_ms": 2.9231,
+    "all_write_max_ms": 17.5603,
+    "warm_write_max_ms": 1.1634,
+    "warm_write_median_ms": 0.0254,
+    "warm_write_p99_ms": 0.1731,
+    "over_50ms": 0,
+    "slowest": {
+      "index": "3",
+      "format_ms": "0.037300",
+      "write_ms": "17.560300",
+      "format_cycles": "104199",
+      "write_cycles": "772157"
+    }
+  },
+  "stdout": {
+    "samples": 1000,
+    "all_format_max_ms": 2.4059,
+    "all_write_max_ms": 134.4854,
+    "warm_write_max_ms": 134.4854,
+    "warm_write_median_ms": 0.61485,
+    "warm_write_p99_ms": 4.5589,
+    "over_50ms": 1,
+    "slowest": {
+      "index": "677",
+      "format_ms": "0.036300",
+      "write_ms": "134.485400",
+      "format_cycles": "105754",
+      "write_cycles": "449195"
+    }
+  },
+  "stdout-direct": {
+    "samples": 1000,
+    "all_format_max_ms": 4.2565,
+    "all_write_max_ms": 4.169,
+    "warm_write_max_ms": 4.169,
+    "warm_write_median_ms": 0.021,
+    "warm_write_p99_ms": 0.0953,
+    "over_50ms": 0,
+    "slowest": {
+      "index": "123",
+      "format_ms": "1.228100",
+      "write_ms": "4.169000",
+      "format_cycles": "386208",
+      "write_cycles": "400464"
+    }
+  }
+}
