@@ -1,0 +1,6 @@
+# 任务03 Ubuntu命令（公开复现版）
+# 环境：Ubuntu x86_64 Bash；工作目录：labs/rk3568-qt-serial-assistant。
+# 状态：手工Qt Creator已验证；以下一键构建尚待实跑。
+# 前提：已有匹配厂商Qt5.15.2 SDK，替换为实际路径。不安装软件，不修改全局配置。
+RK3568_SDK=/opt/rk3568-sdk bash scripts/build.sh
+# Windows推送见delivery-guide.md。PuTTY板端命令不存本文件。

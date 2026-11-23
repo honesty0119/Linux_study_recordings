@@ -1,0 +1,11 @@
+{
+  "port": "COM4",
+  "bytes_submitted": 98304,
+  "chunk_bytes": 4096,
+  "inter_chunk_delay_ms": 50,
+  "full_sha256": "1d765a4fcc22cad7cc15d298ec99ad6d4ec0cff8dabed3a1f0d7c598d7c049e0",
+  "tail_sha256": "13c344d2ae5c41cc5aec8b55c5aef474f9124200659252f8556321f2e061e77b",
+  "target_verification": "pending",
+  "port_closed": true,
+  "evidence": "<TASK_ROOT>\\evidence\\otg-rx-boundary-20261123-163828"
+}

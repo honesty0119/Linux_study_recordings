@@ -1,0 +1,43 @@
+QStandardPaths: runtime directory '/var/run' is not a directory, but a symbolic link to a directory permissions 0755 owned by UID 0 GID 0
+UI font: "Noto Sans SC"
+port "/dev/ttyFIQ0" restriction "控制台 / 已保护"
+port "/dev/ttyGS0" restriction ""
+port "/dev/ttyS3" restriction ""
+port "/dev/ttyS4" restriction ""
+port "/dev/ttyS8" restriction ""
+找到 5 个串口，4 个候选；当前未打开
+就绪：请核实接口后选择串口；默认 115200 / 8 / 无校验 / 1
+APP_ONLY_LANDSCAPE surface= QSize(720, 1280) content= QSize(1280, 720) rotation= -90 scale= 1
+APP_ONLY_LANDSCAPE surface= QSize(720, 1280) content= QSize(1280, 723) rotation= -90 scale= 0.995851
+APP_ONLY_LANDSCAPE surface= QSize(720, 1280) content= QSize(1280, 723) rotation= -90 scale= 0.995851
+APP_ONLY_LANDSCAPE surface= QSize(720, 1280) content= QSize(1280, 720) rotation= -90 scale= 1
+APP_ONLY_LANDSCAPE surface= QSize(720, 1280) content= QSize(1280, 720) rotation= -90 scale= 1
+已选择 /dev/ttyGS0，当前未打开
+已打开 /dev/ttyGS0 | 115200 / 8 / 无校验 / 1，流控无
+接收显示已清空，累计字节计数保留
+接收显示已清空，累计字节计数保留
+已加入发送队列 8 B；TX计数不等于对端确认
+定时发送已启动，间隔 1000 ms
+定时发送已停止
+接收显示已清空，累计字节计数保留
+记录已开始（仅后续接收、单文件64 MiB上限）：/tmp/task3-serial-package.XODNmb/data/received/rx-20261123-080320-406-fee5e1276e6143b9b575c295ebd3965e.bin
+已保存当前保留的原始接收字节 12 B（不含已裁剪数据）：/tmp/task3-serial-package.XODNmb/data/received/snapshot-0520374bfede42b39f6b1e30348497af.bin
+接收记录已停止，0 B：/tmp/task3-serial-package.XODNmb/data/received/rx-20261123-080320-406-fee5e1276e6143b9b575c295ebd3965e.bin
+接收显示已清空，累计字节计数保留
+记录已开始（仅后续接收、单文件64 MiB上限）：/tmp/task3-serial-package.XODNmb/data/received/rx-20261123-081122-497-05730c21728b4b1c8563c6166af7eb87.bin
+接收记录已停止，12 B：/tmp/task3-serial-package.XODNmb/data/received/rx-20261123-081122-497-05730c21728b4b1c8563c6166af7eb87.bin
+开始发送文件 /tmp/task3-serial-package.XODNmb/data/send/all-bytes-4096.bin（4096 B），按原始字节发送，不追加结尾
+文件本机写出完成，SHA256=c8f5d0341d54d951a71b136e6e2afcb14d11ed8489a7ae126a8fee0df6ecf193；仍需对端比对
+接收显示已清空，累计字节计数保留
+记录已开始（仅后续接收、单文件64 MiB上限）：/tmp/task3-serial-package.XODNmb/data/received/rx-20261123-082418-887-8d963942f9e6422e8ecaea8419d39195.bin
+接收记录已停止，4096 B：/tmp/task3-serial-package.XODNmb/data/received/rx-20261123-082418-887-8d963942f9e6422e8ecaea8419d39195.bin
+已保存当前保留的原始接收字节 4096 B（不含已裁剪数据）：/tmp/task3-serial-package.XODNmb/data/received/snapshot-6e05f54bea0f4aeda01f4ef017aee603.bin
+定时发送已启动，间隔 1000 ms
+serial error 8 "Unknown error"
+串口异常：Unknown error
+port "/dev/ttyFIQ0" restriction "控制台 / 已保护"
+port "/dev/ttyGS0" restriction ""
+port "/dev/ttyS3" restriction ""
+port "/dev/ttyS4" restriction ""
+port "/dev/ttyS8" restriction ""
+找到 5 个串口，4 个候选；当前未打开

@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-23T15:24:42.487693+08:00",
+  "source": "<TASK_ROOT>\\build\\qt_demo-rk3568-release\\qt_demo",
+  "sha256": "b48ea44b8804ada462a880e693cbdb770b90663d6997827b50673a6a858790f7",
+  "remote_file": "/tmp/task3-serial-package.XODNmb/qt_demo",
+  "self_test_exit": 0,
+  "gui_started": false,
+  "serial_opened": false
+}

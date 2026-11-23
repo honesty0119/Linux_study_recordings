@@ -1,0 +1,22 @@
+REMOTE_BEFORE exit=0
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /tmp/task3-serial-package.XODNmb/data/received/rx-20261123-080320-406-fee5e1276e6143b9b575c295ebd3965e.bin
+fe30a52d356d91b20132c8f4d832a07a41c8c26105c4ccc4c05a83cf9dccad41  /tmp/task3-serial-package.XODNmb/data/received/rx-20261123-080320-406-fee5e1276e6143b9b575c295ebd3965e.bin.json
+fe0cc22f669cdc2d2d50c426a97c06b8c30e4adba2c150458473a57dfeed5e67  /tmp/task3-serial-package.XODNmb/data/received/snapshot-0520374bfede42b39f6b1e30348497af.bin
+2c2d0a6da10b0944f0c5787eb6adce3212e890ca33e83d3a3402f7ec87fb0955  /tmp/task3-serial-package.XODNmb/otg-run.log
+DOWNLOAD /tmp/task3-serial-package.XODNmb/data/received/snapshot-0520374bfede42b39f6b1e30348497af.bin exit=0
+
+DOWNLOAD /tmp/task3-serial-package.XODNmb/data/received/rx-20261123-080320-406-fee5e1276e6143b9b575c295ebd3965e.bin.json exit=0
+
+DOWNLOAD /tmp/task3-serial-package.XODNmb/data/received/rx-20261123-080320-406-fee5e1276e6143b9b575c295ebd3965e.bin exit=0
+
+DOWNLOAD /tmp/task3-serial-package.XODNmb/otg-run.log exit=0
+
+REMOTE_AFTER exit=0
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  /tmp/task3-serial-package.XODNmb/data/received/rx-20261123-080320-406-fee5e1276e6143b9b575c295ebd3965e.bin
+fe30a52d356d91b20132c8f4d832a07a41c8c26105c4ccc4c05a83cf9dccad41  /tmp/task3-serial-package.XODNmb/data/received/rx-20261123-080320-406-fee5e1276e6143b9b575c295ebd3965e.bin.json
+fe0cc22f669cdc2d2d50c426a97c06b8c30e4adba2c150458473a57dfeed5e67  /tmp/task3-serial-package.XODNmb/data/received/snapshot-0520374bfede42b39f6b1e30348497af.bin
+2c2d0a6da10b0944f0c5787eb6adce3212e890ca33e83d3a3402f7ec87fb0955  /tmp/task3-serial-package.XODNmb/otg-run.log
+LOCAL name=snapshot-0520374bfede42b39f6b1e30348497af.bin bytes=12 sha256=fe0cc22f669cdc2d2d50c426a97c06b8c30e4adba2c150458473a57dfeed5e67
+LOCAL name=rx-20261123-080320-406-fee5e1276e6143b9b575c295ebd3965e.bin.json bytes=380 sha256=fe30a52d356d91b20132c8f4d832a07a41c8c26105c4ccc4c05a83cf9dccad41
+LOCAL name=rx-20261123-080320-406-fee5e1276e6143b9b575c295ebd3965e.bin bytes=0 sha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+LOCAL name=otg-run.log bytes=1671 sha256=2c2d0a6da10b0944f0c5787eb6adce3212e890ca33e83d3a3402f7ec87fb0955

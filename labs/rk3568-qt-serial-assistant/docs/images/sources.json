@@ -1,0 +1,56 @@
+[
+  {
+    "image": "01-demo-touch.jpg",
+    "source": "evidence/demo-validation/lcd-clicks-20.jpg",
+    "sha256": "7b2ee4d110539770ad77069d575a72ad7284c06a4bb7d46fee82ca0bcd789df3",
+    "edited": false
+  },
+  {
+    "image": "02-assistant-and-log.jpg",
+    "source": "evidence/otg-log-test/board-snapshot-12bytes.jpg",
+    "sha256": "75a74145f264e941a0e0b2b707c4cf9e875e656a2bd777b1b478666787ac417d",
+    "edited": false
+  },
+  {
+    "image": "03-pc-receive.png",
+    "source": "evidence/otg-text-test/pc-com4-receive.png",
+    "sha256": "85792d7ffb859be6af1841aea24b59cedfbdcac86a90a72d3385f933a9769004",
+    "edited": false
+  },
+  {
+    "image": "04-timer-receive.png",
+    "source": "evidence/otg-text-test/auto-send-com4.png",
+    "sha256": "1865240e43d507da8f08731a10ca3aa1c8c56072d0cbe24ec506acbc64d247c5",
+    "edited": false
+  },
+  {
+    "image": "05-log-stopped.png",
+    "source": "evidence/otg-log-test/record-stopped-12bytes.png",
+    "sha256": "920ee3155cbf661e6027c3904dbba401b46768f6201865ee5c57a60a256ef61c",
+    "edited": false
+  },
+  {
+    "image": "06-binary-results.png",
+    "source": "evidence/otg-binary-rx-20261123-162517/board-console.png",
+    "sha256": "182760d9f4ea18e8b4e889c8685f781b229234a254c4703e056790c9a85a38df",
+    "edited": false
+  },
+  {
+    "image": "07-hotplug-error.png",
+    "source": "evidence/otg-hotplug-test/disconnect-console.png",
+    "sha256": "8fab3683046e4210bc415f18e2333d3c8a613295db2d9b18bbbc41158ec4a22e",
+    "edited": false
+  },
+  {
+    "image": "08-boundary-results.png",
+    "source": "evidence/otg-rx-boundary-20261123-163828/board-console.png",
+    "sha256": "a1c73086527d29b9c82064b5dda4bd469cea9bd8784e768a48d93e3eafedde6a",
+    "edited": false
+  },
+  {
+    "image": "09-boundary-lcd.jpg",
+    "source": "evidence/otg-rx-boundary-20261123-163828/board-boundary.jpg",
+    "sha256": "7f6a67bac959000e26f61e406a8dfe7dbb4d9f058fe42d4cba2bad58029bbcc8",
+    "edited": false
+  }
+]

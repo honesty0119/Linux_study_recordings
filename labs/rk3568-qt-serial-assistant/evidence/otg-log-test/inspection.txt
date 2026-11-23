@@ -1,0 +1,37 @@
+# OTG 接收快照与活动日志检查
+
+## 采集范围与完整性
+
+任务日期：2026-11-23。Windows 经固定 SSH/scp -O 只读取回 /tmp/task3-serial-package.XODNmb/data/received/ 当时全部3个普通文件；未发现子目录。另读取该程序目录的 otg-run.log。原文件名保留在本目录。
+传输前、传输后板端 SHA256 与下载副本逐项一致，见 collection.log。此为逐文件采集，不是应用暂停或原子文件系统快照；未打开串口、停止GUI、修改板端配置，未操作COM3/COM4。
+
+## snapshot 精确字节
+
+文件：snapshot-0520374bfede42b39f6b1e30348497af.bin
+长度：12字节。
+ASCII：LOG_TEST_123
+HEX：4C 4F 47 5F 54 45 53 54 5F 31 32 33
+SHA256：fe0cc22f669cdc2d2d50c426a97c06b8c30e4adba2c150458473a57dfeed5e67
+
+LOG(3) + _(1) + TEST(4) + _(1) + 123(3) = 12。
+预期文本本身就是12字节，“11B”是计数错误，没有多出的字节。文件不含CR、LF、NUL或其他前后缀，不需要猜测输入来源。
+
+## 当前持续接收日志与sidecar
+
+文件：rx-20261123-080320-406-fee5e1276e6143b9b575c295ebd3965e.bin
+当前长度：0字节；HEX为空。
+SHA256：e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+sidecar：同名.bin.json，380字节，SHA256为fe30a52d356d91b20132c8f4d832a07a41c8c26105c4ccc4c05a83cf9dccad41。
+state=recording；bytes=0；sha256与当前空文件一致。
+port=ttyGS0，baud=115200，data_bits=8，parity_enum=0，stop_bits_enum=1。
+started与updated均为2026-11-23T08:03:20.406Z（北京时间16:03:20.406）。
+
+otg-run.log：1671字节，SHA256为2c2d0a6da10b0944f0c5787eb6adce3212e890ca33e83d3a3402f7ec87fb0955。
+其记录顺序为“记录已开始（仅后续接收）”，随后“已保存当前保留的原始接收字节12B”。持续日志与当前接收缓冲区快照具有不同范围，不能要求二者长度必然相等。现有证据无法证明记录开始后是否有新数据到达，也不能仅凭空文件判断日志功能失败或成功。
+
+## 验收边界与下一步
+
+已核实：快照准确保存LOG_TEST_123的12个原始字节；下载完整性通过；当前活动sidecar与当前日志文件大小/哈希一致。
+尚未通过：持续记录真实新接收数据、记录停止后的最终state/bytes/SHA256以及最终元数据验收。当前state为recording，只能视作采集时的活动记录快照。
+后续由任务03聊天指导用户在记录期间接收新的已知字节并正常停止记录，再重新采集到独立位置核对最终数据与元数据；本次未执行这些操作。

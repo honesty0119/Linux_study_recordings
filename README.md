@@ -1,5 +1,14 @@
 # Linux 学习记录
 
+## 任务03：RK3568 Qt串口助手交付（2026-11-23）
+
+主要功能已在LCD与OTG链路实测，含双向二进制、文件/日志、缓存边界和热拔插恢复。仍有实体UART参数、权限失败、持续负载等保留项。
+
+- [任务03源码与交付入口](labs/rk3568-qt-serial-assistant/README.md)
+- [图文验收报告（9张调试原图）](labs/rk3568-qt-serial-assistant/docs/acceptance-report.md)
+- [Release交付包](https://github.com/honesty0119/Linux_study_recordings/releases/tag/task03-qt-serial-20261123)
+
+
 记录 Linux 学习过程中的知识整理、命令实验、问题排查和阶段复盘。使用 GPT 辅助解释与练习，以实际执行结果作为掌握情况的依据。
 
 ## 当前进展

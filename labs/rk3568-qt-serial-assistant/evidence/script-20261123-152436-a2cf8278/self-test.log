@@ -1,0 +1,26 @@
+PASS ASCII controls, NUL, high bytes and backslash
+PASS HEX byte boundaries
+PASS all 256 bytes HEX round-trip
+PASS arbitrary readyRead chunks concatenate identically
+PASS chunk boundaries do not change ASCII rendering
+PASS bounded RX drops oldest bytes
+PASS TX cap counts driver queue without partial enqueue
+PASS TX exact limit preserves binary bytes
+PASS empty receive buffer
+PASS HEX wraps at 16 bytes
+SERIAL_DATA_SELF_TEST passed= 10 failed= 0
+PASS atomic raw snapshot write
+PASS open binary transfer source
+PASS file chunks preserve NUL and all byte values
+PASS file SHA256 matches actual chunks
+PASS start receive log with exact size cap
+PASS receive chunks concatenate without inserted separators
+PASS log capacity rejects whole excess block
+PASS log closes with metadata
+PASS saved log equals original bytes
+PASS log sidecar size and SHA256
+PASS reject directory as transfer source
+PASS unwritable destination reports failure
+PASS short file writes retain suffix until complete
+PASS zero file write fails without infinite retry
+FILE_IO_SELF_TEST passed= 14 failed= 0

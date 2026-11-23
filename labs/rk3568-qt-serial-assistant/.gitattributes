@@ -1,0 +1,4 @@
+*.sh text eol=lf
+*.bin -text
+*.png -text
+*.jpg -text

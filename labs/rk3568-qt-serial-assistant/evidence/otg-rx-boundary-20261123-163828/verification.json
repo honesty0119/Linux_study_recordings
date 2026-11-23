@@ -1,0 +1,18 @@
+[
+  {
+    "file": "rx-20261123-083722-143-8e6ccaa131ae460ab987e03b0c924c2d.bin",
+    "expected_file": "expected-full.bin",
+    "bytes": 98304,
+    "byte_equal": true,
+    "sha256": "1d765a4fcc22cad7cc15d298ec99ad6d4ec0cff8dabed3a1f0d7c598d7c049e0",
+    "stopped_metadata_valid": true
+  },
+  {
+    "file": "snapshot-2aa929e8e8444fc0822f2cbcc0358d9d.bin",
+    "expected_file": "expected-tail.bin",
+    "bytes": 65536,
+    "byte_equal": true,
+    "sha256": "13c344d2ae5c41cc5aec8b55c5aef474f9124200659252f8556321f2e061e77b",
+    "stopped_metadata_valid": null
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "baud": 115200,
+  "bytes": 98304,
+  "data_bits": 8,
+  "format": "raw serial bytes, no timestamps inserted",
+  "parity_enum": 0,
+  "port": "ttyGS0",
+  "sha256": "1d765a4fcc22cad7cc15d298ec99ad6d4ec0cff8dabed3a1f0d7c598d7c049e0",
+  "started": "2026-11-23T08:37:22.144Z",
+  "state": "user_stopped",
+  "stop_bits_enum": 1,
+  "updated": "2026-11-23T08:39:50.636Z"
+}

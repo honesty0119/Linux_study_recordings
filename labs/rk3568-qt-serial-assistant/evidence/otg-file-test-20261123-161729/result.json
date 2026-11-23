@@ -1,0 +1,11 @@
+{
+  "port": "COM4",
+  "expected_bytes": 4096,
+  "received_bytes": 4096,
+  "expected_sha256": "c8f5d0341d54d951a71b136e6e2afcb14d11ed8489a7ae126a8fee0df6ecf193",
+  "received_sha256": "c8f5d0341d54d951a71b136e6e2afcb14d11ed8489a7ae126a8fee0df6ecf193",
+  "byte_for_byte_equal": true,
+  "elapsed_seconds": 96.32,
+  "evidence": "<TASK_ROOT>\\evidence\\otg-file-test-20261123-161729",
+  "port_closed": true
+}

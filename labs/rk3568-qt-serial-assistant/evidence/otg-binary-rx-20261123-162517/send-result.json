@@ -1,0 +1,9 @@
+{
+  "port": "COM4",
+  "bytes_submitted": 4096,
+  "sha256": "c8f5d0341d54d951a71b136e6e2afcb14d11ed8489a7ae126a8fee0df6ecf193",
+  "host_queue_drained": true,
+  "target_file_verification": "pending",
+  "port_closed": true,
+  "evidence": "<TASK_ROOT>\\evidence\\otg-binary-rx-20261123-162517"
+}
