@@ -1,0 +1,7 @@
+READY interface=wlan0 bind=BOARD_IPV4 port=502 unit=7 map=0x0200 duration=1860 rtu=disabled
+TCP_CLOSE id=2 peer_port=54845 reason=peer_closed errno=0 requests=1800 last_tid=1800 elapsed_ms=1800052 mono_ms=17394568
+TCP_CLOSE id=3 peer_port=54846 reason=peer_closed errno=0 requests=1800 last_tid=1800 elapsed_ms=1800051 mono_ms=17394568
+TCP_CLOSE id=1 peer_port=54844 reason=peer_closed errno=0 requests=1800 last_tid=1800 elapsed_ms=1800053 mono_ms=17394568
+SERVER_STOP reason=signal elapsed_ms=1804090
+TCP_TRACE_END suppressed=0
+STOPPED

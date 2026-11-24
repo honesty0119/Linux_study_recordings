@@ -1,0 +1,14 @@
+# 任务05 Ubuntu公开复现参考；工作目录：labs/rk3568-web-sqlite-modbus。
+# 状态：原环境构建/验收已通过；本公开路径适配尚待实跑，本轮没有新Ubuntu必做步骤。
+# 下列示例全部注释，替换为真实已准备路径后再按需执行。不得直接当作板端/PuTTY命令。
+# 不安装依赖、不使用sudo、不修改网络或系统服务；仅生成本目录build产物。
+# export TASK5_TOOLCHAIN=/path/to/matching-aarch64-sdk
+# export TASK5_HOST_MODBUS=/path/to/x86_64-libmodbus-3.2.0-prefix
+# export TASK5_TARGET_MODBUS=/path/to/aarch64-libmodbus-3.2.0-prefix
+# bash scripts/build_tcp.sh
+# 预期：HOST_PROTOCOL_PASS 30、HOST_DIAGNOSTICS_PASS 10、HOST_TCP_CLIENT_PASS 17、TCP_BUILD_PASS。
+# export TASK5_TCP_BUILD=/absolute/path/to/this-task/build/tcp.RESULT
+# bash scripts/check_tcp_ops.sh
+# 预期：HOST_TCP_MANAGER_PASS 14、SOAK_HARNESS_PASS 3、TCP_OPS_PASS。
+# 可选复现既有Web/SQLite/配置测试：bash scripts/build_phase4.sh
+# 配置测试仅为新生成的测试令牌/夹具设置权限；不接触板端或真实凭据。

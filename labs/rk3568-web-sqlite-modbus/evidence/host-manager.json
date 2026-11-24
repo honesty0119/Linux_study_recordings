@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "count": 14,
+  "checks": [
+    "not_started",
+    "start_ready",
+    "tcp_only_no_database",
+    "C_client_reads",
+    "duplicate_start_rejected",
+    "stop_closes_active_connections",
+    "socket_removed",
+    "idempotent_stop",
+    "duration_auto_stop_and_restart",
+    "port_conflict_does_not_stop_owner",
+    "forged_pid_never_signalled",
+    "foreign_control_file_preserved",
+    "bounded_log_and_pipe_drain",
+    "concurrent_start_single_owner"
+  ],
+  "scope": "host loopback only"
+}

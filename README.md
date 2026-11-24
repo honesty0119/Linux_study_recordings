@@ -1,5 +1,13 @@
 # Linux 学习记录
 
+## 任务05：RK3568 Web/SQLite与Modbus TCP阶段收尾（2026-11-24）
+
+Modbus TCP已在真实RK3568和局域网上验证：只读状态、写请求拒绝、C主站与启停管理；30分钟3客户端各1Hz，5400/5400成功、零错误/重连，p95 222.31ms。Web/SQLite首版已验证范围一并归档。RTU按用户要求暂缓，常驻部署不是本阶段完成条件。
+
+- [任务05源码、文档与证据](labs/rk3568-web-sqlite-modbus/README.md)
+- [阶段总结](labs/rk3568-web-sqlite-modbus/docs/stage-summary.md)
+- [验收结果及保留项](labs/rk3568-web-sqlite-modbus/docs/acceptance.md)
+
 ## 任务03：RK3568 Qt串口助手交付（2026-11-23）
 
 主要功能已在LCD与OTG链路实测，含双向二进制、文件/日志、缓存边界和热拔插恢复。仍有实体UART参数、权限失败、持续负载等保留项。

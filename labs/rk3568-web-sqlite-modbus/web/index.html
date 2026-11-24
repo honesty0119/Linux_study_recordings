@@ -1,0 +1,11 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RK3568 · 设备状态</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head><body><main>
+<header><div><p class="eyebrow">RK3568 / DEVICE OBSERVATORY</p><h1>设备状态</h1><p class="sub">网络状态与运行记录 · 只读面板</p></div><span class="pill">只读访问</span></header>
+<section aria-labelledby="live-title"><div class="section-head"><h2 id="live-title">实时状态</h2><span id="live-badge" class="badge">正在连接</span></div><p id="live-note" class="muted" role="status" aria-live="polite">等待设备响应…</p>
+<div class="cards" id="live-cards"><article><p>Wi-Fi 连接</p><strong id="carrier">—</strong><small id="ip">—</small></article><article><p>信号强度</p><strong id="signal">—</strong><small>单位 dBm · 未知时不显示数值</small></article><article><p>接收 / 发送字节</p><strong class="counter" id="bytes">—</strong><small>接口全部流量，非仅 Modbus</small></article><article><p>串口 RTU</p><strong id="rtu">—</strong><small>与 PuTTY 调试串口状态无关</small></article></div>
+<div class="detail"><span id="sample-time">采样时间 —</span><span id="health">历史写入状态 —</span></div></section>
+<section aria-labelledby="history-title"><div class="section-head"><div><h2 id="history-title">历史记录</h2><p class="muted">来自板端 SQLite，与实时状态独立。每页最多 50 条；点击“查看最新”刷新，点击“更早记录”翻页。</p></div><button id="refresh-history">查看最新</button></div>
+<div class="chart-wrap"><div class="chart-label">信号趋势 <span>当前页 · dBm</span></div><canvas id="chart" height="190" aria-label="当前页历史信号趋势，详细数据见下表" role="img"></canvas><p class="muted">横轴为样本顺序，不表示等间隔时间；未知值与不同会话之间断线。信号稳定时曲线接近水平，并不表示停止采集。</p></div>
+<p id="history-note" role="status" class="muted">正在读取历史…</p><div class="table-wrap"><table><thead><tr><th>记录</th><th>设备系统时间</th><th>连接</th><th>IPv4</th><th>信号</th><th>会话</th></tr></thead><tbody id="history-body"></tbody></table></div>
+<div class="pager"><button id="older" disabled>更早记录 ↓</button><span class="muted">设备时钟未必已同步；跨会话请结合记录顺序判断。</span></div></section>
+<section><div class="section-head"><h2>最近事件</h2><button id="refresh-events">刷新事件</button></div><p id="events-note" class="muted"></p><ul id="events"></ul></section>
+<footer>实时读取 Modbus 快照 · 历史仅查询 · 不提供配置修改</footer></main></body></html>

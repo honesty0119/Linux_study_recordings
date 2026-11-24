@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "count": 17,
+  "checks": [
+    "valid",
+    "unknown",
+    "stale",
+    "bad_version",
+    "exception",
+    "wrong_tid",
+    "wrong_unit",
+    "wrong_pid",
+    "wrong_length",
+    "short_count",
+    "timeout",
+    "reconnect",
+    "invalid_args_12",
+    "invalid_args_13",
+    "invalid_args_14",
+    "invalid_args_15",
+    "real_server_three_reads"
+  ],
+  "scope": "host loopback; synthetic values are fixtures, not board measurements"
+}

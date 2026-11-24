@@ -1,0 +1,14 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RK3568 · 配置管理</title><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/admin.css"><script src="/admin.js" defer></script></head><body><main>
+<header><div><p class="eyebrow">RK3568 / CONFIGURATION</p><h1>配置管理</h1><p class="sub">保存配置 · 下次启动任务服务时加载</p></div><span class="pill">SSH 私有入口</span></header>
+<section><h2>管理凭据</h2><p class="muted">通过 SSH 加密转发访问本机入口。令牌仅在当前页面内存中使用，不存入浏览器存储。</p><label>本次管理令牌<input id="token" type="password" autocomplete="off" spellcheck="false" maxlength="64"></label><div class="actions"><button id="unlock">验证并读取配置</button><button id="lock">清除凭据</button></div></section>
+<p id="message" role="status" aria-live="polite">请先读取配置。</p>
+<section><h2>当前运行事实</h2><p id="runtime">尚未读取。</p><p class="muted">串口 RTU 未启用。下列串口参数仅保存，硬件接入并启用 RTU 前不会实际应用，也不会占用 PuTTY 调试串口。</p></section>
+<section><h2>已保存配置</h2><p id="revision" class="muted">版本未知</p><form id="form"><fieldset id="fields" disabled>
+<div class="form-grid"><label>Modbus 从站号（启动后供 TCP 使用）<input id="unit" name="unit" type="number" min="1" max="247" required></label>
+<label>串口波特率<select id="baud" name="baud"><option>1200</option><option>2400</option><option>4800</option><option>9600</option><option>19200</option><option>38400</option><option>57600</option><option>115200</option></select></label>
+<label>数据位<select id="data_bits" name="data_bits"><option>8</option></select></label><label>校验<select id="parity" name="parity"><option value="N">无校验 N</option><option value="E">偶校验 E</option><option value="O">奇校验 O</option></select></label>
+<label>停止位<select id="stop_bits" name="stop_bits"><option>1</option><option>2</option></select></label><label>历史周期（秒，1–3600）<input id="history_seconds" name="history_seconds" type="number" min="1" max="3600" required></label></div>
+<p class="muted">状态变化仍单独记录。较短周期会增加数据库写入；周期设置不会改变实时采样频率。</p>
+<label class="confirm"><input id="confirm" type="checkbox" required>我理解保存后需重新启动本任务服务才加载；此操作不会自动重启服务。</label>
+<div class="actions"><button type="submit">保存，等待下次启动</button><button id="reload" type="button">重新读取</button></div></fieldset></form></section>
+<footer>不提供 IP 修改、系统服务重启或 Modbus 写控制。保存失败不会覆盖已有配置；遇版本冲突请重新读取。</footer></main></body></html>

@@ -1,0 +1,10 @@
+{"elapsed_seconds": 0.035, "client": 1, "ok": true, "latency_ms": 46.235, "age_ms": 646, "session": "e256cfcb7c24350b", "seq": 2}
+{"elapsed_seconds": 1.0, "client": 1, "ok": true, "latency_ms": 158.707, "age_ms": 536, "session": "e256cfcb7c24350b", "seq": 3}
+{"elapsed_seconds": 2.0, "client": 1, "ok": true, "latency_ms": 74.21, "age_ms": 585, "session": "e256cfcb7c24350b", "seq": 4}
+{"elapsed_seconds": 3.0, "client": 1, "ok": true, "latency_ms": 28.85, "age_ms": 529, "session": "e256cfcb7c24350b", "seq": 5}
+{"elapsed_seconds": 4.001, "client": 1, "ok": true, "latency_ms": 76.318, "age_ms": 519, "session": "e256cfcb7c24350b", "seq": 6}
+{"elapsed_seconds": 1795.0, "client": 1, "ok": true, "latency_ms": 81.73, "age_ms": 633, "session": "e256cfcb7c24350b", "seq": 1779}
+{"elapsed_seconds": 1796.001, "client": 1, "ok": true, "latency_ms": 85.752, "age_ms": 656, "session": "e256cfcb7c24350b", "seq": 1780}
+{"elapsed_seconds": 1797.001, "client": 1, "ok": true, "latency_ms": 22.248, "age_ms": 568, "session": "e256cfcb7c24350b", "seq": 1781}
+{"elapsed_seconds": 1798.001, "client": 1, "ok": true, "latency_ms": 98.207, "age_ms": 587, "session": "e256cfcb7c24350b", "seq": 1782}
+{"elapsed_seconds": 1799.001, "client": 1, "ok": true, "latency_ms": 69.998, "age_ms": 609, "session": "e256cfcb7c24350b", "seq": 1783}

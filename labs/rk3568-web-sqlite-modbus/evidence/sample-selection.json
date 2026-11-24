@@ -1,0 +1,23 @@
+[
+  {
+    "path": "evidence/tcp-30min-client-0.jsonl",
+    "original_records": 1800,
+    "published_records": 10,
+    "selection": "first 5 and last 5, no measurement values modified",
+    "original_sha256": "ae1a30e3501e5fb6d852c081e9a33af13cddf285416a1fa545863924bc7f33f4"
+  },
+  {
+    "path": "evidence/tcp-30min-client-1.jsonl",
+    "original_records": 1800,
+    "published_records": 10,
+    "selection": "first 5 and last 5, no measurement values modified",
+    "original_sha256": "cb3b01e1b1b2d8dd527d6ad7cc57a6cb769ec9dce9c7b5e187449a7005e3d41a"
+  },
+  {
+    "path": "evidence/tcp-30min-client-2.jsonl",
+    "original_records": 1800,
+    "published_records": 10,
+    "selection": "first 5 and last 5, no measurement values modified",
+    "original_sha256": "e5e07a51bb1456633fb01f0f6b826a81f7a80bdc271569a41f6d9177f45a06a9"
+  }
+]

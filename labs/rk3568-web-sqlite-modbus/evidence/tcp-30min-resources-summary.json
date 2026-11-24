@@ -1,0 +1,30 @@
+{
+  "samples": 180,
+  "unavailable_samples": 0,
+  "rss_kib_after_60s": {
+    "min": 1456,
+    "max": 1568,
+    "first": 1456,
+    "last": 1568
+  },
+  "fd_after_60s": {
+    "min": 4,
+    "max": 8
+  },
+  "cpu_percent_of_one_core": 0.4495574184725038,
+  "same_session": true,
+  "rows_verified": 5400,
+  "scope": "observed 30-minute TCP-only window; not a proof of no leak or full system performance",
+  "sampled_before_end_rss_kib": {
+    "first_elapsed": 60.493,
+    "last_elapsed": 1792.188,
+    "min": 1456,
+    "max": 1456
+  },
+  "final_sample": {
+    "elapsed_seconds": 1802.206,
+    "cpu_seconds": 8.1,
+    "rss_kib": 1568,
+    "fd_count": 4
+  }
+}

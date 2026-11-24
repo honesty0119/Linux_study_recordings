@@ -1,0 +1,36 @@
+{
+  "result": "PASS",
+  "final_state": {
+    "state": "stopped",
+    "manager_pid": 1726,
+    "bind": "BOARD_IPV4",
+    "port": 502,
+    "unit": 7,
+    "duration": 3,
+    "rtu_enabled": false,
+    "run_dir": "BOARD_PRIVATE_ROOT/run.ihgow2wq",
+    "child_pid": 1727,
+    "child_exit": 0,
+    "reason": "service_exit",
+    "elapsed_seconds": 3.029,
+    "log_bytes": 171,
+    "log_discarded_bytes": 0
+  },
+  "checks": [
+    "not_started",
+    "start_ready",
+    "status_matches_manager",
+    "duplicate_rejected",
+    "C_client_reads",
+    "30_second_three_client_reads",
+    "stop_active_connection_and_release",
+    "idempotent_stop",
+    "restart_and_duration_exit"
+  ],
+  "count": 9,
+  "run_dirs": [
+    "BOARD_PRIVATE_ROOT/run.fshi2d_i",
+    "BOARD_PRIVATE_ROOT/run.ihgow2wq"
+  ],
+  "scope": "short board lifecycle and 30-second LAN reads; not 30-minute soak"
+}

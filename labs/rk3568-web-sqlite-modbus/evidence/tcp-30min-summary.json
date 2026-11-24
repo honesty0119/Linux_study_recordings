@@ -1,0 +1,51 @@
+{
+  "result": "PASS",
+  "elapsed_seconds": 1800.018,
+  "interrupted": false,
+  "clients": [
+    {
+      "client": 0,
+      "attempts": 1800,
+      "successes": 1800,
+      "errors": 0,
+      "connections": 1,
+      "max_age_ms": 1010
+    },
+    {
+      "client": 1,
+      "attempts": 1800,
+      "successes": 1800,
+      "errors": 0,
+      "connections": 1,
+      "max_age_ms": 1010
+    },
+    {
+      "client": 2,
+      "attempts": 1800,
+      "successes": 1800,
+      "errors": 0,
+      "connections": 1,
+      "max_age_ms": 1010
+    }
+  ],
+  "latency_ms": {
+    "p50": 52.096800005529076,
+    "p95": 222.3134000087157,
+    "p99": 382.6677000033669,
+    "max": 846.7735000012908
+  },
+  "scope": "TCP reads only; no RTU, writes, database or network changes",
+  "config": {
+    "host": "BOARD_IPV4",
+    "port": 502,
+    "unit": 7,
+    "seconds": 1800,
+    "clients": 3,
+    "interval_ms": 1000,
+    "p95_limit_ms": 500,
+    "age_limit_ms": 3000,
+    "out": "TASK_WORKSPACE\\build\\ops.XfU70P58\\deployment\\long1\\soak",
+    "zero_errors_required": true,
+    "minimum_scheduled_coverage": 0.95
+  }
+}

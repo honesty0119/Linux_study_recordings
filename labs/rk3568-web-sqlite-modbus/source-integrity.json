@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-24",
+  "scope": "C source/header bytes unchanged; public build path changes not re-executed",
+  "files": [
+    {
+      "path": "src/config_api.c",
+      "sha256": "061fe78b5d43e34665368beda54a4a7cb53c8efcb7cd040b02d6e9c5332ad805",
+      "matches_verified_workspace_source": true
+    },
+    {
+      "path": "src/config_store.c",
+      "sha256": "9714bf50bf8e1af6b37b0a87cacd7a7cdb93d530aaa90ff8283733ae593f3e09",
+      "matches_verified_workspace_source": true
+    },
+    {
+      "path": "src/config_store.h",
+      "sha256": "c7c401dded3680c1a18acc7304305421bd6ed7b14a59ed72aaa04efc28a9d0b0",
+      "matches_verified_workspace_source": true
+    },
+    {
+      "path": "src/history.c",
+      "sha256": "082d277e8c055a87d97c3a5115d61e37bc22061edf29cd9529037933e484735b",
+      "matches_verified_workspace_source": true
+    },
+    {
+      "path": "src/history.h",
+      "sha256": "884add0d3f02cd1f51ebfcf62ce30145b92cf9a0b6bcf20fcff8b428063e0ce4",
+      "matches_verified_workspace_source": true
+    },
+    {
+      "path": "src/status_server.c",
+      "sha256": "ee12de3d330204368c416a52e45ff5058e957f2caf73f66da2980a52cbb50b27",
+      "matches_verified_workspace_source": true
+    },
+    {
+      "path": "src/tcp_status_client.c",
+      "sha256": "ca1c5c3c0cfea91ebb90b59b33434321d84565a59922c44d6a4cd6facfba86e3",
+      "matches_verified_workspace_source": true
+    },
+    {
+      "path": "src/web_api.c",
+      "sha256": "8907276fbbd57a0a48c77080c0e406e1eaed7ba9970f1ca5e527cf7dd780f4bf",
+      "matches_verified_workspace_source": true
+    },
+    {
+      "path": "src/wifi_signal.c",
+      "sha256": "42a3393fd8acb0ff09cee382950910f8a540abf2565721613c3619b8eef07da6",
+      "matches_verified_workspace_source": true
+    },
+    {
+      "path": "src/wifi_signal.h",
+      "sha256": "76df2f8791ca9062500354812f5f95437c8cac55efc1610535605c07e8c30d15",
+      "matches_verified_workspace_source": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "libmodbus",
+  "version": "3.2.0",
+  "source_url": "https://github.com/stephane/libmodbus/releases/download/v3.2.0/libmodbus-3.2.0.tar.gz",
+  "release_url": "https://github.com/stephane/libmodbus/releases/tag/v3.2.0",
+  "sha256": "72239f319b9b8483e3d393c5a60865d734fcff18a8abbb2486e389834a2f6ef1",
+  "verification": "Matches GitHub release asset SHA256 digest; not an independent signature verification",
+  "bytes": 491480,
+  "license": "LGPL-2.1-or-later",
+  "status": "libmodbus 3.2.0 used in verified host and AArch64 builds; package not included"
+}

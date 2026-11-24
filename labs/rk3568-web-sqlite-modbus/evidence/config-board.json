@@ -1,0 +1,141 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "path": "/api/v1/status",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "path": "/admin/api/v1/config",
+      "method": "GET",
+      "expected": 401,
+      "actual": 401
+    },
+    {
+      "path": "/admin/api/v1/config",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "path": "/admin/api/v1/config",
+      "method": "POST",
+      "expected": 403,
+      "actual": 403
+    },
+    {
+      "path": "/admin/api/v1/config",
+      "method": "POST",
+      "expected": 400,
+      "actual": 400
+    },
+    {
+      "path": "/admin/api/v1/config",
+      "method": "POST",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "path": "/admin/api/v1/config",
+      "method": "POST",
+      "expected": 409,
+      "actual": 409
+    },
+    {
+      "path": "/api/v1/status",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "path": "/api/v1/status",
+      "method": "POST",
+      "expected": 405,
+      "actual": 405
+    },
+    {
+      "path": "/admin/api/v1/config",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "path": "/api/v1/status",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200
+    },
+    {
+      "path": "/admin/api/v1/config",
+      "method": "GET",
+      "expected": 200,
+      "actual": 200
+    }
+  ],
+  "snapshots": {
+    "initial": {
+      "saved": {
+        "revision": 1,
+        "unit": 1,
+        "baud": 9600,
+        "data_bits": 8,
+        "stop_bits": 1,
+        "parity": "N",
+        "history_seconds": 10
+      },
+      "service_state": "loaded_at_start",
+      "serial_state": "disabled_hardware_pending",
+      "runtime": {
+        "revision": 1,
+        "unit": 1,
+        "history_seconds": 10,
+        "history_enabled": true,
+        "session": "d4ef0ed37833f995"
+      }
+    },
+    "saved_pending": {
+      "saved": {
+        "revision": 2,
+        "unit": 7,
+        "baud": 115200,
+        "data_bits": 8,
+        "stop_bits": 1,
+        "parity": "N",
+        "history_seconds": 2
+      },
+      "service_state": "pending_restart",
+      "serial_state": "disabled_hardware_pending",
+      "runtime": {
+        "revision": 1,
+        "unit": 1,
+        "history_seconds": 10,
+        "history_enabled": true,
+        "session": "d4ef0ed37833f995"
+      }
+    },
+    "applied": {
+      "saved": {
+        "revision": 2,
+        "unit": 7,
+        "baud": 115200,
+        "data_bits": 8,
+        "stop_bits": 1,
+        "parity": "N",
+        "history_seconds": 2
+      },
+      "service_state": "loaded_at_start",
+      "serial_state": "disabled_hardware_pending",
+      "runtime": {
+        "revision": 2,
+        "unit": 7,
+        "history_seconds": 2,
+        "history_enabled": true,
+        "session": "6ac891d2e4244c69"
+      }
+    }
+  },
+  "modbus_unit7_read_and_reject_write": true,
+  "scope": "board HTTP/SSH/API; manual browser pending"
+}

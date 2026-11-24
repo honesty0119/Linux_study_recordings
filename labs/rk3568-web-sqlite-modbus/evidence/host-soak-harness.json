@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "checks": [
+    "good",
+    "wrong_unit",
+    "reconnect"
+  ],
+  "scope": "local synthetic peers only; not board soak"
+}
